@@ -338,7 +338,7 @@ describe('CacheableImage', function() {
       }
     });
 
-    cacheableImage.componentWillReceiveProps({ // eslint-disable-line no-unused-vars
+    cacheableImage.UNSAFE_componentWillReceiveProps({ // eslint-disable-line no-unused-vars
       source: {
         uri: 'https://img.wennermedia.com/wallpaper1-39bd413b-cb85-4af0-9f33-3507f272e562.jpg'
       }
